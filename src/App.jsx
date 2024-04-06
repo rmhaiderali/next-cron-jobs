@@ -43,7 +43,7 @@ function App() {
     <>
       <input
         type="text"
-        style={{ display: "block" }}
+        style={{ display: "block", outline: "none" }}
         placeholder="expression"
         value={expression}
         onChange={({ target }) => {
@@ -53,7 +53,7 @@ function App() {
       ></input>
       <input
         type="number"
-        style={{ display: "block" }}
+        style={{ display: "block", outline: "none" }}
         placeholder="occurrences"
         value={occurrences}
         onChange={({ target }) => {
